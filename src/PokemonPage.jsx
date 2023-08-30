@@ -30,7 +30,7 @@ const PokemonPage = ({ previous, next }) => {
   return (
     <>
       <div className="links">
-        {previous && <Link to={`/pokemon/${previous.name}`}>Previous</Link>}
+        {previous && <Link to={`/pokemon/${previous.name}`}>Previous One</Link>}
         <Link to="/">Home</Link>
         {next && <Link to={`/pokemon/${next.name}`}>Next</Link>}
       </div>
